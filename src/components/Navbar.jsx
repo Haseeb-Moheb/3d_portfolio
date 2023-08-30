@@ -4,7 +4,6 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets'; 
 
-
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false); 
@@ -67,7 +66,6 @@ const Navbar = () => {
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
-
            </ul>
           </div>
         </div>
@@ -75,5 +73,4 @@ const Navbar = () => {
     </nav>
   )
 }
-
 export default Navbar
