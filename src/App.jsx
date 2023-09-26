@@ -4,22 +4,22 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {
   return (
      <BrowserRouter>
-     <dev className="relative z-0 bg-primary">
-      <dev className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+     <div className="relative z-0 bg-primary">
+      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero />
-      </dev>
+      </div>
       <About />
       <Experience />
       <Tech />
       <Works />
       <Feedbacks />
-      <dev className="relative z-0">
+      <div className="relative z-0">
         <Contact />
         <StarsCanvas />
 
-      </dev>
-     </dev>
+      </div>
+     </div>
      </BrowserRouter>
   )
 }
