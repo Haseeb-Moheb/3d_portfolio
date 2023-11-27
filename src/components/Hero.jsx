@@ -50,7 +50,6 @@ const Hero = () => {
             />
           </div>
         </a>
-        
       </div>
     </section> 
   );

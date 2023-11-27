@@ -50,4 +50,5 @@ const Feedbacks = () => {
     </div>
   )
 }
+
 export default SectionWrapper(Feedbacks, "");

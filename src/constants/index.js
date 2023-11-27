@@ -39,6 +39,10 @@ import {
       title: "Work",
     },
     {
+      id: "tech",
+      title: "Skills",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
