@@ -5,7 +5,7 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
-import { Tilt } from 'react-tilt';
+import { Tilt } from 'react-tilt'; 
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
@@ -83,4 +83,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, ""); 
+export default SectionWrapper(Works, "works"); 

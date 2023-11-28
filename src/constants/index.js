@@ -35,7 +35,7 @@ import {
     },
     {
       id: "about",
-      title: "About",
+      title: "About", 
     },
     {
       id: "work",
@@ -44,6 +44,10 @@ import {
     {
       id: "tech",
       title: "Skills",
+    },
+    {
+      id: "works",
+      title: "Projects",
     },
     {
       id: "contact",
