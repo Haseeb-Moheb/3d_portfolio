@@ -16,13 +16,14 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    // starbucks,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    freelancer,
   } from "../assets";
   
   export const navLinks = [
@@ -124,11 +125,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer",
+      company_name: "Freelancer Ltd",
+      icon: freelancer,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -269,5 +270,5 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
-  
+
   export { services, technologies, experiences, testimonials, projects };
