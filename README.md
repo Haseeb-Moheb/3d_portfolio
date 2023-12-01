@@ -1,4 +1,4 @@
-# Personal Website
+# Personal Portfolio Website
 
 Designed and constructed a fully responsive, 3-D personal website utilizing the React JavaScript library, Tailwind CSS and Three JS in addition to HTML, CSS, and JavaScript. 
 
