@@ -233,7 +233,7 @@ import {
       source_code_link: "https://github.com/Haseeb-Moheb/Espressonist-Capstone-Project.git",
     },
     {
-      name: "Personal Website",
+      name: "Portfolio Website",
       description:
         "Designed and constructed a fully responsive, 3-D personal website utilizing the React JavaScript library, Tailwind CSS and Three JS in addition to HTML, CSS, and JavaScript. .",
       tags: [
