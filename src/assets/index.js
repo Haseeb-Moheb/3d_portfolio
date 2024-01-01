@@ -31,6 +31,8 @@ import upright from "./company/upright.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import codex from "./codex.png";
+import unichat from "./unichat.jpg";
 
 export {
   logo,
@@ -61,6 +63,8 @@ export {
   freelancer,
   // tesla,
   upright,
+  codex,
+  unichat,
   carrent,
   jobit,
   tripguide,

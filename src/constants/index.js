@@ -18,6 +18,8 @@ import {
     // meta,
     // starbucks,
     // tesla,
+    codex,
+    unichat,
     upright,
     uscri,
     shopify,
@@ -233,6 +235,27 @@ import {
       source_code_link: "https://github.com/Haseeb-Moheb/Espressonist-Capstone-Project.git",
     },
     {
+      name: "HM-Codex App",
+      description:
+        "HM-Codex is an AI-based Application that helps us to code more efficiently.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: codex,
+      source_code_link: "https://github.com/Haseeb-Moheb/HM-Codex.git",
+    },
+    {
       name: "Portfolio Website",
       description:
         "Designed and constructed a fully responsive, 3-D personal website utilizing the React JavaScript library, Tailwind CSS and Three JS in addition to HTML, CSS, and JavaScript. .",
@@ -252,6 +275,27 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/Haseeb-Moheb/3d_portfolio.git",
+    },
+    {
+      name: "Unichat App",
+      description:
+        "A full-fledged Firebase Chat Application. With social authentication including Google and Facebook using Firebase.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: unichat,
+      source_code_link: "https://github.com/Haseeb-Moheb/Unichat.git",
     },
     {
       name: "Todo List App",
