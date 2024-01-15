@@ -5,6 +5,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { Link } from "react-router-dom";
+import { facebook, x, instagram, youtube } from "../assets";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -123,16 +126,32 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          
+          <div>
+          <a href="https://www.youtube.com/channel/UC1RSMw6xKNbA1grH0ZHrJDA" target="_blank">
+          <img src={facebook} alt="FaceBook" className="display: inline-block w-9 h-9 object-contain mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
+         
+          <a href="" target="_blank">
+          <img src={x} alt="X" className="display: inline-block w-9 h-9 object-contain mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
+
+          <a href="" target="_blank">
+          <img src={instagram} alt="Instagram" className="w-9 h-9 object-contain display: inline-block mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
+
+          <a href="https://www.youtube.com/channel/UC1RSMw6xKNbA1grH0ZHrJDA" target="_blank">
+          <img src={youtube} alt="YouTube" className="w-9 h-9 object-contain display: inline-block mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
+
+          </div>
+
         </form>
       </motion.div>
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div>
-    </div>
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+      <EarthCanvas />
+      </motion.div>     
+      </div>
   );
 };
+
 export default SectionWrapper(Contact, "contact");

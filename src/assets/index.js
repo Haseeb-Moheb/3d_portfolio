@@ -33,6 +33,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import codex from "./codex.png";
 import unichat from "./unichat.jpg";
+import facebook from "./socialmedia/facebook.png"
+import x from "./socialmedia/x.jpg";
+import instagram from "./socialmedia/instagram.png";
+import youtube from "./socialmedia/youtube.png";
 
 export {
   logo,
@@ -63,6 +67,10 @@ export {
   freelancer,
   // tesla,
   upright,
+  facebook,
+  instagram,
+  x,
+  youtube,
   codex,
   unichat,
   carrent,
