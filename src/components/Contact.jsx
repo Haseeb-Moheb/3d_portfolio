@@ -5,9 +5,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { Link } from "react-router-dom";
-import { facebook, x, instagram, youtube } from "../assets";
-
+import { facebook, x, instagram, youtube, linkedin, github, pinterest, snapchat } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -128,10 +126,10 @@ const Contact = () => {
           </button>
           
           <div>
-          <a href="https://www.youtube.com/channel/UC1RSMw6xKNbA1grH0ZHrJDA" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=61555550106486" target="_blank">
           <img src={facebook} alt="FaceBook" className="display: inline-block w-9 h-9 object-contain mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
          
-          <a href="" target="_blank">
+          <a href="https://twitter.com/HaseebMoheb1" target="_blank">
           <img src={x} alt="X" className="display: inline-block w-9 h-9 object-contain mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
 
           <a href="" target="_blank">
@@ -140,11 +138,21 @@ const Contact = () => {
           <a href="https://www.youtube.com/channel/UC1RSMw6xKNbA1grH0ZHrJDA" target="_blank">
           <img src={youtube} alt="YouTube" className="w-9 h-9 object-contain display: inline-block mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
 
-          </div>
+          <a href="https://www.linkedin.com/in/haseebullah-moheb-47b17b94/" target="_blank">
+          <img src={linkedin} alt="Linkedin" className="display: inline-block w-9 h-9 object-contain mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
+         
+          <a href="https://github.com/Haseeb-Moheb" target="_blank">
+          <img src={github} alt="Github" className="display: inline-block w-9 h-9 object-contain mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
 
+          <a href="https://www.pinterest.com/haseeb1moheb/" target="_blank">
+          <img src={pinterest} alt="Pinterest" className="w-9 h-9 object-contain display: inline-block mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
+
+          <a href="" target="_blank">
+          <img src={snapchat} alt="Snapchat" className="w-9 h-9 object-contain display: inline-block mr-2 hover:translate-y-[-2px] hover:cursor-pointer transition-all ease-in duration-100 -md:mr-0 -md:my-[1px]" /></a>
+
+          </div>
         </form>
       </motion.div>
-
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>

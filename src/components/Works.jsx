@@ -23,10 +23,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               alt={name}
               className="w-full h-full object-cover rounded-2xl" />
 
-              <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div className="absolute inset-0 flex justify-end m-3 card-img_hover"> 
                 <div
                   onClick={() => window.open
-                  (source_code_link, "blank")}
+                  (source_code_link, "_blank")}
                   className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                     <img
                     src={github}
@@ -70,7 +70,7 @@ const Works = () => {
 
           </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="flex mt-20 flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard
           key={`project-${index}`}

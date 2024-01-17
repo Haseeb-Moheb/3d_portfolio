@@ -5,7 +5,7 @@ import mobile from "./React-Native.png";
 import web from "./web.png"; 
 import github from "./github.png"; 
 import menu from "./menu.svg";
-import close from "./close.svg"; 
+import close from "./close.svg";  
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -37,6 +37,9 @@ import facebook from "./socialmedia/facebook.png"
 import x from "./socialmedia/x.jpg";
 import instagram from "./socialmedia/instagram.png";
 import youtube from "./socialmedia/youtube.png";
+import linkedin from "./socialmedia/linkedin.png";
+import pinterest from "./socialmedia/pinterest.png";
+import snapchat from "./socialmedia/snapchat.png";
 
 export {
   logo,
@@ -71,6 +74,9 @@ export {
   instagram,
   x,
   youtube,
+  linkedin,
+  pinterest,
+  snapchat,
   codex,
   unichat,
   carrent,

@@ -133,7 +133,7 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer",
+      title: "Full Stack Developer",
       company_name: "Freelancer Ltd",
       icon: freelancer,
       iconBg: "#383E56",
@@ -258,7 +258,7 @@ import {
     {
       name: "Portfolio Website",
       description:
-        "Designed and constructed a fully responsive, 3-D personal website utilizing the React JavaScript library, Tailwind CSS and Three JS in addition to HTML, CSS, and JavaScript. .",
+        "Designed and constructed a fully responsive, 3-D personal website. Utilized the React JavaScript library, Tailwind CSS and Three JS in addition to HTML, CSS, and JavaScript.",
       tags: [
         {
           name: "React",
