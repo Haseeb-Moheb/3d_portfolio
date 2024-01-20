@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Designed and constructed a fully responsive, 3-D personal website utilizing the React JavaScript library, Tailwind CSS and Three JS in addition to HTML, CSS, and JavaScript. 
+Designed and constructed a fully responsive, 3-D personal website. Utilized the React JavaScript library, Tailwind CSS and Three JS in addition to HTML, CSS, and JavaScript. 
 
 Technical Skills performed:
 - Three JS - a powerful 3D graphics library for rendering and animating the 3D model
